@@ -1,0 +1,26 @@
+TYPE CYRER:
+<properties>
+    <property name="numFrames" type="int" value="3"/>
+    <property name="numRows" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="35"/>
+    <property name="textureID" value="cyrer"/>
+    <property name="textureWidth" type="int" value="35"/>
+</properties>
+
+TYPE GLIDER:
+<properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="numRows" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="36"/>
+    <property name="textureID" value="glider"/>
+    <property name="textureWidth" type="int" value="38"/>
+</properties>
+
+TYPE SLINGER:
+<properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="numRows" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="38"/>
+    <property name="textureID" value="slinger"/>
+    <property name="textureWidth" type="int" value="34"/>
+</properties>

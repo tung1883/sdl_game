@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\State Machine Headers">
+      <UniqueIdentifier>{0841e2e8-9102-49ce-b93e-59e8d6ca05b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State Machine Sources">
+      <UniqueIdentifier>{c7ac0926-66ba-4dad-9bfc-f6ccb062be47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object Headers">
+      <UniqueIdentifier>{ef607aca-a781-40c7-9f30-76438a8096bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object Sources">
+      <UniqueIdentifier>{e97c63b2-b5c3-4178-ba9f-73a9d80b5db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object Headers\Enemy Headers">
+      <UniqueIdentifier>{7f0e1c1f-e172-4b82-95bf-524b65a0f552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object Sources\Enemy Sources">
+      <UniqueIdentifier>{fbe4e765-12fd-4c29-bc21-2006d5dece38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map Headers">
+      <UniqueIdentifier>{10adb39f-1005-48cf-9e04-875d3308fad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map Sources">
+      <UniqueIdentifier>{a08519a8-2117-4c17-99e5-0e563c186ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{f77d1a94-9698-47a7-859e-658b08d83287}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menuState.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stateMachine.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="playState.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="menuButton.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pauseState.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="animatedGraphic.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOverState.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shooter.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollingBackground.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Source Files\Object Sources\Enemy Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="glider.cpp">
+      <Filter>Source Files\Object Sources\Enemy Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="slinger.cpp">
+      <Filter>Source Files\Object Sources\Enemy Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cyrer.cpp">
+      <Filter>Source Files\Object Sources\Enemy Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="layer.cpp">
+      <Filter>Source Files\Map Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mapParser.cpp">
+      <Filter>Source Files\Map Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tileLayer.cpp">
+      <Filter>Source Files\Map Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="objectLayer.cpp">
+      <Filter>Source Files\Map Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="level1.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="level2.cpp">
+      <Filter>Source Files\State Machine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Source Files\Object Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>Source Files\Object Sources\Enemy Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectParams.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGraphic.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingBackground.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Object Headers\Enemy Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Glider.h">
+      <Filter>Header Files\Object Headers\Enemy Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Slinger.h">
+      <Filter>Header Files\Object Headers\Enemy Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cyrer.h">
+      <Filter>Header Files\Object Headers\Enemy Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files\Map Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapParser.h">
+      <Filter>Header Files\Map Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayer.h">
+      <Filter>Header Files\Map Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Header Files\Map Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLayer.h">
+      <Filter>Header Files\Map Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Header Files\State Machine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Header Files\Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header Files\Object Headers\Enemy Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
